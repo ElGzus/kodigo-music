@@ -21,6 +21,6 @@ export const auth = getAuth(app);
 
 export const db = getDatabase(app);
 
-// Genera un UID único
+
 export const generateUid = () => uid();
 

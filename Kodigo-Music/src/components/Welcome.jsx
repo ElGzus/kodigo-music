@@ -24,7 +24,7 @@ export function Welcome() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        navigate("/HomePage"); // Modificar la ruta según la configuración de tu aplicación
+        navigate("/HomePage");
       }
     });
     return () => unsubscribe();
@@ -41,7 +41,7 @@ export function Welcome() {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        navigate("/HomePage"); // Modificar la ruta según la configuración de tu aplicación
+        navigate("/HomePage");
       })
       .catch((err) => alert(err.message));
   };
@@ -63,7 +63,7 @@ export function Welcome() {
       registerInformation.password
     )
       .then(() => {
-        navigate("/HomePage"); // Modificar la ruta según la configuración de tu aplicación
+        navigate("/HomePage");
       })
       .catch((err) => alert(err.message));
   };
