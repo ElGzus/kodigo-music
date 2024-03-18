@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-image: url('https://images.unsplash.com/photo-1614854262178-03c96e9c8c28?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWUlMjBhbmQlMjBwdXJwbGUlMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/407/230/desktop-wallpaper-150-blue-and-purple-gradient-purple-and-teal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.card-1 {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/050/957/non_2x/abstract-design-background-with-blue-and-purple-gradient-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.btn-1 {
+    margin-top: 50px;
+}
